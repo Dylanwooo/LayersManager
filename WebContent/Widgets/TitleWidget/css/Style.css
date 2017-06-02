@@ -1,0 +1,24 @@
+ .Title-container{
+	top:0px;
+    left:100px;
+    position:absolute;
+    width:400px;
+    height:65px;
+    background-color:#009688;    
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+} 
+.Title-container .logo-lg{
+    display: block;
+    float: left;
+    height: 80px;
+    font-size: 25px;
+    line-height: 65px;
+    text-align: center;
+    width: 400px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 0 15px;
+    font-weight: 300;
+    overflow: hidden;
+    color: white;
+}

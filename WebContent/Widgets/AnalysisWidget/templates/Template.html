@@ -1,0 +1,38 @@
+<div class="myContainer" style="filter:alpha(opacity=60);opacity: 0.8;">
+   <div class="modal-header"> 
+	  <button type="button" class="close" data-dismiss="modal" aria-labe="Close">
+	    <span dojoAttachPoint="clear" aria-hidden="true" style="color:white">×</span>
+	  </button>	 
+   </div>
+    <div class="modal-body">        
+    <form method="post" action="Data">
+        <h2><strong><font color="white">综合分析：</font></strong></h2>
+	    <div>
+	      <p><font color="white">选择日期：</font> <input class="selector1" type="text" id="datepicker1" name="dpicker1" lay-filter="startTime"></p>         
+	    </div> 
+	    <br>
+	    <div>
+	      <p><font color="white">选择时间:</font><input type="time" id="time1" name="sTime"></p> 	      
+	    </div>
+	    <br>	    
+	    <br>
+	    <br>	    
+	    <h2><strong><font color="white">日温变化分析:</font></strong></h2>
+	    <div>
+	      <p><font color="white">选择日期：</font> <input class="selector2" type="text" id="datepicker2" name="dpicker2" lay-filter="startTime"></p>         
+	    </div>
+	    <br>	    
+	    
+    <br>     
+    </form>
+    <div class="myBtn">
+      <button type="button" class="btn btn-primary" dojoAttachPoint="showTable">数据表</button>
+      <button type="button" class="btn btn-primary" dojoAttachPoint="analysis">综合分析</button>
+      <button type="button" class="btn btn-primary" dojoAttachPoint="daliyTem">日温分析</button>
+      <button type="button" class="btn btn-primary" dojoAttachPoint="clearCharts">清除图表</button>
+    </div> 
+    <div class="lineChart" id="line"></div>   
+    <div class="pieChart" id="pie"></div>                  
+  </div> 
+  
+</div>

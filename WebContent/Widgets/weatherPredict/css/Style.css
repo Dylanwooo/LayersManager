@@ -1,0 +1,83 @@
+.preContainer{
+	position:absolute;
+	background-color:black;
+	top:250px;
+	left:170px;
+	height:480px;
+	width:700px;
+	border-radius:15px;
+}
+.future1{
+	position:absolute;
+	border: 1px solid white;
+	width:200px;
+	left:15px;
+	height:380px;
+	top:75px;
+	background-color:black;
+}
+.future2{
+	position:absolute;
+	border: 1px solid white;
+	width:200px;
+	left:250px;
+	height:380px;
+	top:75px;
+	background-color:black;
+}
+.future3{
+	position:absolute;
+	border: 1px solid white;
+	width:200px;
+	right:15px;
+	height:380px;
+	top:75px;
+	background-color:black;
+}
+
+#city1,#city2,#city3{
+	position:absolute;
+	font-size:20px;
+	left:70px;
+	top:80px;	
+	color:white;
+}
+#date1,#date_2,#date3{
+	position:absolute;
+	font-size:18px;
+	left:70px;
+	top:20px;
+    color:white;
+}
+#tem1,#tem2,#tem3{
+	position:absolute;
+	font-size:35px;
+	top:130px;
+	left:22px;
+	color:white;
+}
+#dayPic1,#dayPic2,#dayPic3{
+	position:absolute;
+	top:180px;
+	left:25px;
+}
+#night1,#night2,#night3{
+	position:absolute;
+	top:180px;
+	left:115px;
+}
+#wind1,#wind2,#wind3{
+	position:absolute;
+	top:250px;
+	left:65px;
+	font-size:20px;
+	color:white;
+
+}
+#myweather1,#myweather2,#myweather3{
+	position:absolute;
+	top:290px;
+	left:65px;
+	font-size:20px;
+	color:white;
+}

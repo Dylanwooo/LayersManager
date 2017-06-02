@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0"/>
+	<classpathentry kind="lib" path="F:/apache-tomcat-7.0.72/webapps/LayersManager/gson-2.6.2.jar"/>
+	<classpathentry kind="lib" path="F:/apache-tomcat-7.0.72/webapps/LayersManager/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="F:/apache-tomcat-7.0.72/webapps/LayersManager/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="F:/apache-tomcat-7.0.72/webapps/LayersManager/mysql-connector-java-5.1.36.jar"/>
+	<classpathentry kind="lib" path="F:/apache-tomcat-7.0.72/webapps/LayersManager/mysql-connector-java-5.1.39-bin.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="F:/apache-tomcat-7.0.72/webapps/LayersManager/json-lib.jar"/>
+	<classpathentry kind="lib" path="F:/apache-tomcat-7.0.72/webapps/LayersManager/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="F:/apache-tomcat-7.0.72/webapps/LayersManager/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="F:/apache-tomcat-7.0.72/webapps/LayersManager/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="F:/apache-tomcat-7.0.72/webapps/LayersManager/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="build/util"/>
+	<classpathentry kind="lib" path="F:/apache-tomcat-7.0.72/webapps/LayersManager/commons-io-2.5.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

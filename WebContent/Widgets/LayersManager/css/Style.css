@@ -1,0 +1,88 @@
+.LM-container{    
+    width:300px;
+    min-height:130px;
+    background-color: #fff;
+    border: 1px solid #ddd;   
+    top:100px;
+    right:20px;
+    border-radius: 10px;
+    position:absolute;
+    z-index:999;
+    overflow-x:hidden;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.close{
+	position:absolute;
+	right:5px;
+}
+.input-url{
+    cursor:text;
+}
+.input-area{
+    width:80%;
+    margin-left:10%;
+    margin-top:20px;
+}
+
+.LM-container .server-list{
+    width:80%;
+    margin-top:20px;
+    margin-left:10%;
+    overflow:hidden;
+}
+
+.url-checkbox ,.url-remove,.url-rename{
+    float:right;
+    cursor:pointer;
+    
+}
+.url-remove,.url-rename{
+	margin: 2px 0 0 5px;
+}
+.list-content{
+	width:90%;
+	overflow:hidden;
+}
+.list-content input{
+	max-width: 100px;
+	border:none;
+	background-color: #FFFFFF;
+}
+.addbtn{
+	background-color: #eee;
+}
+.turnLong{
+	animation: turnLongAnimation 0.7s;
+	-webkit-animation: turnLongAnimation 0.7s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+.move-up,.move-down{
+	margin: 2px 0 0 5px;
+	cursor:pointer;
+}
+@-webkit-keyframes turnLongAnimation {
+    from {width: 300px;}
+	to {width: 600px;}
+}
+
+@keyframes turnLongAnimation{
+	from {width: 300px;}
+	to {width: 600px;}
+}
+.turnShort{
+	animation: turnShortAnimation 0.7s;
+	-webkit-animation: turnShortAnimation 0.7s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+@-webkit-keyframes turnShortAnimation {
+    from {width: 600px;}
+	to {width: 300px;}
+}
+
+@keyframes turnShortAnimation{
+	from {width: 600px;}
+	to {width: 300px;}
+}

@@ -1,0 +1,9 @@
+.staContainer{
+	position:absolute;
+	background-color:black;
+	left:400px;  
+    top:150px; 
+    height:550px;	
+	right:400px;
+	border-radius:15px;	
+}

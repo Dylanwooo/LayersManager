@@ -1,0 +1,9 @@
+.Tabcontainer{
+	position:absolute;
+	height:550px;	
+	right:350px; 
+    left:300px;  
+    top:150px;   
+    background-color:white;  
+    border-radius: 15px;   
+}

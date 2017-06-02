@@ -1,0 +1,28 @@
+<div class="LM-container" style="filter:alpha(opacity=80);opacity: 0.9;">
+	  <button type="button" class="close" data-dismiss="modal" aria-labe="Close">
+	    <span dojoAttachPoint="clear" aria-hidden="true" style="color:white">×</span>
+	  </button>
+    <div class="row">
+        <div class="col-lg-6 input-area">
+            <div class="input-group">
+                <!-- <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" dojoAttachPoint="dropdown"><span class="dropdown-content">动态图层</span><span class="caret"></span></button>
+                    <ul class="dropdown-menu type-list" role="menu" >
+                        <li><a>动态图层</a></li>
+                        <li><a>瓦片图层</a></li>
+                    </ul>
+                </div>/btn-group -->
+                <span class="bg-primary input-group-addon">服务地址</span>
+                <input dojoAttachPoint="urlInput" type="text" class="form-control input-url" placeholder="请输入服务url" title="输入发布的服务URL"/>
+                <span class="input-group-btn">
+                    <button class="btn btn-default addbtn" type="button" dojoAttachPoint="addBtn">添加</button>
+                </span>
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+    </div><!-- /.row -->
+    <div class="server-list">
+        <ul class="list-group" dojoAttachPoint="urlList"> 
+        	<li class="list-group-item"><p class="text-muted">暂无附加图层</p></li>
+        </ul>
+    </div>
+</div>

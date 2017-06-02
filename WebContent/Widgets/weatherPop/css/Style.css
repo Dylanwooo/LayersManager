@@ -1,0 +1,173 @@
+.wContainer{
+	position:absolute;
+	background-color:black;
+	top:250px;
+	right:220px;
+	height:480px;
+	width:800px;
+	border-radius:15px;
+}
+#btnContainer{
+	position:absolute;
+	left:310px;
+	height:50px;
+	top:30px;
+}
+#wContent{
+	position:absolute;
+	border: 1px solid white;
+	width:250px;
+	left:10px;
+	height:380px;
+	top:75px;
+}
+#lifeSuggest{
+	position:absolute;
+	border: 1px solid white;
+	width:500px;
+	height:380px;
+	right:8px;
+	top:75px;
+}
+#date{
+	color:white;
+	font-size:25px;
+	left:55px;
+	top:8px;
+	position:absolute;
+}
+#city{
+	position:absolute;
+	font-size:15px;
+	left:95px;
+	top:45px;
+	color:white;
+}
+#date2{
+	position:absolute;
+	font-size:15px;
+	left:40px;
+	top:80px;
+	color:white;
+}
+#tem{
+	position:absolute;
+	font-size:30px;
+	color:white;
+	top:120px;
+	left:58px;
+}
+#dayPic{
+	position:absolute;
+	top:180px;
+	left:50px;
+}
+#night{
+	position:absolute;
+	top:180px;
+	left:145px;
+}
+#wind{
+	position:absolute;
+	top:245px;
+	left:100px;
+	font-size:18px;
+	color:white;
+}
+#pm25{
+	position:absolute;
+	color:white;
+	bottom:20px;
+	left:140px;
+	font-size:18px;
+}
+#temp{
+	position:absolute;
+	color:white;
+	bottom:20px;
+	left:75px;
+	font-size:18px;
+}
+#myweather{
+	position:absolute;
+	top:280px;
+	left:100px;
+	font-size:18px;
+	color:white;
+}
+#wearIndex{
+	position:absolute;
+	left:25px;
+	top:5px;
+	width:200px;
+	height:180px;
+	border:1px solid white;
+	background-color:white;
+}
+#healthIndex{
+	position:absolute;
+	left:25px;
+	top:190px;
+	width:200px;
+	height:180px;
+	border:1px solid white;
+	background-color:white;
+}
+#sportIndex{
+	position:absolute;
+	right:25px;
+	top:5px;
+	width:200px;
+	height:180px;
+	border:1px solid white;
+	background-color:white;
+}
+#sunIndex{
+	position:absolute;
+	right:25px;
+	top:190px;
+	width:200px;
+	height:180px;
+	border:1px solid white;
+	background-color:white;
+}
+#wearTitle,#healthTitle,#sportTitle{
+	position:absolute;
+	top:8px;
+	font-size:20px;
+	left:60px;
+}
+#wearTip{
+	position:absolute;
+	top:70px;
+	font-size:15px;
+	left:15px;
+	right:15px;
+}
+#healthTip{
+	position:absolute;
+	top:60px;
+	font-size:15px;
+	left:15px;
+	right:15px;
+}
+#zs,#zs2,#zs3,#zs4{
+	position:absolute;
+	bottom:8px;
+	font-size:18px;
+	left:83px;
+	
+}
+#sunTitle{
+	position:absolute;
+	top:8px;
+	font-size:20px;
+	left:25px;
+}
+#sportTip,#sunTip{
+	position:absolute;
+	top:50px;
+	font-size:15px;
+	left:15px;
+	right:15px;
+}

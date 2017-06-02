@@ -1,0 +1,48 @@
+.LeftPane-container{
+	width:60px;
+	height:23px;
+	top:250px;
+	left:200px;
+}
+#lyrBtn{
+	top:200px;
+	left:25px;
+	position:absolute;
+	height:45px;
+	width:110px;
+}
+#listBtn{
+	top:280px;
+	left:15px;
+	position:absolute;
+	height:45px;
+	width:110px;
+}
+#threeDBtn{
+	top:360px;
+	left:15px;
+	position:absolute;
+	height:45px;
+	width:110px;
+}
+#InfoPane{ 
+	top:440px;
+	left:15px;
+	position:absolute;
+	height:45px;
+	width:110px;
+}
+#Analysis{ 
+	top:520px;
+	left:15px;
+	position:absolute;
+	height:45px;
+	width:110px;
+}
+#Dynamic{
+	top:600px;
+	left:15px;
+	position:absolute;
+	height:45px;
+	width:110px;
+}

@@ -1,0 +1,31 @@
+.tipDialogContainer {
+    font-family: "微软雅黑", "sans-serif";
+    z-index: 90000;
+    position: absolute;
+    opacity: 0.7;
+    background-color: #505050;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.tipDialogContainer .mainContainer {
+    text-align: center;
+    padding: 5px;
+    min-width: 150px;
+    max-width: 320px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    box-shadow: 3px 3px 8px #000;
+    -webkit-box-shadow: 3px 3px 8px #000;
+    -moz-box-shadow: 3px 3px 8px #000;
+    background-position: 20px center;
+    background-repeat:no-repeat;
+    background-image: url("../images/green.png");
+}
+
+.tipDialogContainer .mainContainer .content {
+    padding: 10px 20px 10px 60px;
+    color: white;
+}

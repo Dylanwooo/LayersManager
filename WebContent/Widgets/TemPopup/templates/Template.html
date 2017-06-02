@@ -1,0 +1,39 @@
+
+<div class="modal-content" id="modal" style="width:500px;">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-labe="Close">
+    <span dojoAttachPoint="guanbi" aria-hidden="true">×</span>
+    </button>
+    <!-- layui中通过lay-filter来获取操作的对象 -->
+    <div class="layui-tab layui-tab-card" lay-filter="tab">
+		<ul class="layui-tab-title">
+		  <li class="layui-this" lay-id="111">温度</li>
+		  <li lay-id="1111">温差</li>
+		  <li lay-id="222">降水</li>
+		  <li lay-id="333">气压</li>
+		  <li lay-id="444">相对湿度</li>
+		  <li lay-id="555">能见度</li>
+		  <li lay-id="666">风</li>		  
+		</ul>				
+    </div>
+  </div>
+  <div class="modal-body">        
+    <form method="post" action="Data">
+	    <div>
+	      <p>查询时间： <input class="selector1" type="text" id="datepicker1" name="dpicker1" lay-filter="startTime"></p>         
+	    </div> 
+	    <div id="mytime">
+	      <p><input type="time" id="time1" name="sTime"></p> 	      
+	    </div>
+    <br>     
+    </form>
+                  
+  </div> 
+  <div class="modal-footer">
+    <button dojoAttachPoint="quxiao" type="button" class="btn btn-default pull-left" data-dismiss="modal">取消</button>
+    <button type="button" class="btn btn-primary" dojoAttachPoint="max_min">最高最低气温</button>    
+    <button type="button" class="btn btn-primary" dojoAttachPoint="showTable">站点数据表</button>
+    <button type="button" class="btn btn-primary" dojoAttachPoint="confirm">确定</button>    
+  </div>
+</div>
+
