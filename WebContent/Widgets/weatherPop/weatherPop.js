@@ -48,9 +48,7 @@ define([ "dojo/_base/declare",
             getWeatherInfo:function(){
             	$.ajax({type:"post",url:"GetWeather",
             		success:function(msg){ 
-            			var list = JSON.parse(msg);            			            			
-            			console.log(list);           			
-            			console.log(list.results[0].currentCity);
+            			var list = JSON.parse(msg);            			            			            			
             			document.getElementById("date").innerHTML = list.date;  
             			document.getElementById("city").innerHTML = list.results[0].currentCity;
             			document.getElementById("date2").innerHTML = list.results[0].weather_data[0].date;

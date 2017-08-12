@@ -23,7 +23,7 @@ public class station extends HttpServlet {
     static final String DB_URL = "jdbc:mysql://localhost:3306/mydata?useUnicode=true&characterEncoding=utf-8&useSSL=false";
     
     static final String USER = "root";
-	static final String PASS = "123456"; 
+	static final String PASS = "123456aa"; 
 	
     public station() {
         super();
